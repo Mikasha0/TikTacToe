@@ -1,0 +1,13 @@
+.scoreboard{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+    width:20rem;
+    font-size:1.53m;
+    background-color:white;
+    margin:3rem auto;
+    box-shadow: 0px 0px 8px grey;
+    border-radius:0.5 rem;
+    font-weight: bold;
+}

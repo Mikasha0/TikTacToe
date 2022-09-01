@@ -1,0 +1,27 @@
+.contain{
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+}
+.box{
+  width:100px;
+  height:100px;
+  font-size:48px;
+  font-weight:bold;
+  border-radius:6px;
+  color:white;
+  background-color:grey;
+  border:none;
+  box-shadow: 10px 10px 8px green
+}
+/* .box:hover{
+  background-color:crimson;
+  transition:3s;
+} */
+
+.x{
+  color:white;
+}
+.o{ 
+  color:aqua; 
+}
