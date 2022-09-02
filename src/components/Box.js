@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Box({value, onClick}) {
-    const style = value ==="X"? "box x": "box o"
+export default function Box({mark,Click}) {
+    const myStyle = mark === "X" ? "box x" : "box o"
   return (
-    <div className="contain">
-      <button className={style} onClick={onClick}>{value}</button>
-    </div>
+    <>
+        <button className={myStyle} onClick={Click}>{mark}</button>
+    </>
   )
 }

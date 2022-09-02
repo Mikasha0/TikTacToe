@@ -1,7 +1,5 @@
-.contain{
-  display:flex;
-  justify-content:center;
-  margin-top:20px;
+.board-row{
+  margin:20px;
 }
 .box{
   width:100px;
@@ -12,13 +10,9 @@
   color:white;
   background-color:grey;
   border:none;
-  box-shadow: 10px 10px 8px green
+  box-shadow: 10px 10px 8px green;
+  margin-left: 20px;
 }
-/* .box:hover{
-  background-color:crimson;
-  transition:3s;
-} */
-
 .x{
   color:white;
 }
